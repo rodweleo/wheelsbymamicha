@@ -1,0 +1,53 @@
+#home img{
+    width: 100%;
+    height: 100vh;
+    box-shadow: black 10px 10px 10px inset;
+}
+
+h1{
+    color: white;
+}
+
+
+#home h1{
+    position: absolute;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
+
+#home .container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    width: fit-content;
+}
+
+.card{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    width: fit-content;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+
+.card .card-info{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .car-img{
+    border-radius: 20px;
+    height: auto;
+    width: 300px;
+    background-color: #61A4AD;
+}
